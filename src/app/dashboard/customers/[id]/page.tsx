@@ -10,7 +10,7 @@ import {
   UtensilsCrossed, Cigarette, Wine, Star, Sparkles, Send, Edit2,
   Trash2, Plus, Check, X, Clock, MessageSquare, ChevronRight,
   Shield, Target, TrendingUp, Lightbulb, CheckCircle2, AlertTriangle,
-  Zap, MessageCircle
+  Zap, MessageCircle, Brain
 } from 'lucide-react';
 import { Customer, Note, Match } from '@/types';
 import * as store from '@/lib/store';
