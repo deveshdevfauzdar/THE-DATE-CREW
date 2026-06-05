@@ -2,6 +2,16 @@
 
 A premium matchmaking operations platform designed for elite matchmaking consultants. This dashboard serves as an internal CRM for managing customers, tracking relationship journeys, and utilizing AI for smart match recommendations.
 
+## Assignment Deliverables
+
+- **Live Hosted Link**: `[INSERT_VERCEL_LINK_HERE]` *(Please update after deploying to Vercel)*
+- **GitHub Repository**: [https://github.com/deveshdevfauzdar/THE-DATE-CREW](https://github.com/deveshdevfauzdar/THE-DATE-CREW)
+- **Sample Login Credentials**:
+  - **Email**: `priya@thedatecrew.com` (Admin)
+  - **Email**: `rahul@thedatecrew.com` (Matchmaker)
+  - **Password**: `matchmaker123`
+- **Project Write-Up**: See the detailed section below explaining tech choices, matching logic, AI usage, and assumptions.
+
 ## Features
 
 - **Authentication System**: Secure login for matchmakers with demo credentials.
@@ -42,14 +52,7 @@ A premium matchmaking operations platform designed for elite matchmaking consult
 4. **Open the application**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## Demo Credentials
-
-You can use the following credentials to access the dashboard:
-- **Email**: priya@thedatecrew.com (Admin)
-- **Email**: rahul@thedatecrew.com (Matchmaker)
-- **Password**: `matchmaker123`
-
-## Project Write-Up (Assignment Deliverables)
+## Project Write-Up
 
 **Tech Choices & Assumptions Made**
 I built the dashboard using Next.js 15 (App Router) with TypeScript to ensure a strongly typed, scalable, and modern foundation. For the UI, I utilized Tailwind CSS v4 and Framer Motion to create a premium, intuitive, and emotionally aligned matchmaker experience. Since this is an MVP without a live database, I built a sophisticated client-side data store using `localStorage` pre-seeded with 120 dynamic profiles. This acts as a functional mock backend with full CRUD capabilities, designed with a clear separation of concerns to easily swap to a real database (like Supabase or Firebase) in the future. The primary assumption made is that matchmakers prefer a high-density, professional CRM interface over a consumer-style dating app UI.
