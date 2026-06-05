@@ -4,7 +4,7 @@ A premium matchmaking operations platform designed for elite matchmaking consult
 
 ## Assignment Deliverables
 
-- **Live Hosted Link**: `[INSERT_VERCEL_LINK_HERE]` *(Please update after deploying to Vercel)*
+- **Live Hosted Link**: `https://the-date-crew-fw2ten81k-deveshdfauzdar-6264s-projects.vercel.app` 
 - **GitHub Repository**: [https://github.com/deveshdevfauzdar/THE-DATE-CREW](https://github.com/deveshdevfauzdar/THE-DATE-CREW)
 - **Sample Login Credentials**:
   - **Email**: `priya@thedatecrew.com` (Admin)
@@ -63,6 +63,4 @@ The matching engine implements a deterministic, gender-specific compatibility al
 **How AI is Used**
 AI is deeply integrated into the matchmaking workflow across four primary features: Compatibility Analysis, Match Insights (Green/Red flags), Profile Summaries, and an Introduction Email Generator. To guarantee an uninterrupted experience during evaluation, the AI module is built with a Graceful Fallback Engine. If an `OPENAI_API_KEY` is provided in `.env.local`, the app securely calls GPT-4o-mini via Next.js server routes. If no key is present (or if the API fails), the application instantly falls back to an offline, natural-language reasoning generator that synthesizes realistic AI outputs based on the exact datapoints of the profiles.
 
-## License
 
-Private and confidential. Property of The Date Crew.
