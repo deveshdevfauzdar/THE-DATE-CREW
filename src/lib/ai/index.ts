@@ -2,7 +2,7 @@
 // AI Module — OpenAI integration with mock fallback
 // ============================================================
 
-import { Customer, CompatibilityAnalysis, MatchInsights, GeneratedIntroduction, ProfileSummary } from '@/types';
+import { Customer, Note, CompatibilityAnalysis, MatchInsights, GeneratedIntroduction, ProfileSummary } from '@/types';
 
 // ─── Mock AI Responses (used when OpenAI unavailable) ────────
 
