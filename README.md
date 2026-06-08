@@ -4,7 +4,7 @@ A premium matchmaking operations platform designed for elite matchmaking consult
 
 ## Assignment Deliverables
 
-- **Live Hosted Link**: [https://the-date-crew-fw2ten81k-deveshdfauzdar-6264s-projects.vercel.app](https://the-date-crew-peach.vercel.app/login) 
+- **Live Hosted Link**: https://the-date-crew-peach.vercel.app/login
 - **GitHub Repository**: [https://github.com/deveshdevfauzdar/THE-DATE-CREW](https://github.com/deveshdevfauzdar/THE-DATE-CREW)
 - **Sample Login Credentials**:
   - **Email**: `priya@thedatecrew.com` (Admin)
